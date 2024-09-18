@@ -1,0 +1,58 @@
+
+* { font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;}
+
+body {border: 5px solid green; }
+.container {max-width: 900px;margin: 0 auto;  }
+
+
+
+.im {width: 300px; box-shadow: 5px 5px 25px rgb(235, 106, 106);}
+.head {display: flex; padding: 50px; background: rgb(248, 212, 218)}
+.av {margin-right: 70px; }
+.about {margin-bottom: 40px;}
+.soc {list-style-type: none; display: flex;  padding: 0;}
+.sc { margin-right: 60px;}
+.sc:last-child {margin-right: 0;}
+.link {text-decoration: none; color: black;}
+.link:hover {color: rgb(46, 85, 51); font-weight: bold;}
+
+@media (max-width: 900px) {.head{display: block;  } }
+@media (max-width: 900px) {.iam,.av{ margin: 0 auto;  }}
+@media (max-width: 900px) {.im{display: block; margin: 0 auto; max-width: 100%; box-shadow: 0px 5px 25px rgb(235, 106, 106) ; }}
+@media (max-width: 900px) {h1,h3,.about,.soc,.sc{text-align: center;}}
+@media (max-width: 900px) {.soc{justify-content: center;}}
+
+/* section hobby */
+.sec { padding: 50px 50px; }
+.hob {border: 1px solid green;}
+.title {text-align: center; margin-bottom: 50px;}
+.item {  list-style-position: inside; margin-left: 0;}
+.list { text-align: start; padding-left: 0;}
+.item:nth-child(even) {background:rgb(210, 210, 228) ;}
+.item:nth-child(odd) {background: rgb(173, 238, 173);}
+/* section work */
+
+.tab {width: 100%; border: 1px solid pink;}
+.tab tr:nth-child(odd) {background:rgb(210, 210, 228) ;}
+.tab tr:nth-child(even) {background: rgb(173, 238, 173);}
+
+.cu {background: rgb(173, 238, 173); }
+
+.fm {display: flex;  justify-content: space-between; padding: 10px 50px;  }
+.fm:nth-child(even) {background: rgb(173, 238, 173);}
+.fm:nth-child(odd) {background:  rgb(210, 210, 228);}
+
+.sec:nth-child(even) {background: rgb(244, 244, 157);}
+.sec:nth-child(odd) {background: rgb(248, 212, 218);}
+.sec:nth-child(even):hover {background: rgb(243, 243, 96);}
+.head:hover,.sec:nth-child(odd):hover {background:rgb(243, 128, 147);}
+
+.imp {border: none; width: 30%; background:  rgb(210, 210, 228);  }
+.is {background: rgb(173, 238, 173); }
+@media (max-width: 600px){.fm{display: block;}}
+@media (max-width: 600px) {.lb,.imp{width: 100%;}}
+@media (max-width: 600px) {.lb{display: block; margin-bottom: 20px; border-bottom: 1px solid rgb(152, 152, 192);}}
+@media (max-width: 600px) {.lb2{border-bottom: 1px solid rgb(117, 186, 117);}}
+
